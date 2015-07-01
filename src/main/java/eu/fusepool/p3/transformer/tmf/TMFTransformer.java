@@ -99,11 +99,8 @@ public class TMFTransformer implements SyncTransformer {
             InputStream instream = responseEntity.getContent();
             try {
                 transformed = IOUtils.toString(instream, "UTF-8");
-                System.out.println(transformed );
-
-                fLogger.info(transformed);
+                fLogger.info("Tell me first was asked for this text: " + original);
             } finally {
-                instream.close();
             }
         }
 
