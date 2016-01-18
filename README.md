@@ -1,8 +1,8 @@
-# Tell Me First
+# TellMeFirst
 
-This transformer is an implementation of Tell Me First as a Fusepool Transformer it takes a plain text as input and answer with a JSON containing dbpedia uri a score rappresenting the main topics of the text given in input.
+This transformer is an implementation of TellMeFirst as a Fusepool Transformer. It takes a plain text as input and responds with a JSON containing DBPedia URIs with a score value, representing the main topics of the input text.
 
-It is only an interface to access the pubblic APIs on tellmefirst.polito.it. More info aout the project TellMeFirst [here]{tellmefirst.polito.it}.
+More info about the TellMeFirst project: http://tellmefirst.polito.it. More info about Fusepool P3: https://github.com/fusepoolP3.
 
 ## Compiling and Running
 
